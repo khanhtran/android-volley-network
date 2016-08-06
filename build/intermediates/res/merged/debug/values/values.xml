@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/C:/Projects/Volley-Flickr-Gson-List-GridView-example-master/volleyFlickrGsonListGridViewexamplemaster/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="transparent_black">#99000000</color>
+    <!-- From: file:/C:/Projects/Volley-Flickr-Gson-List-GridView-example-master/volleyFlickrGsonListGridViewexamplemaster/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <!-- From: file:/C:/Projects/Volley-Flickr-Gson-List-GridView-example-master/volleyFlickrGsonListGridViewexamplemaster/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="action_settings">Refresh</string>
+    <string name="app_name">Flickr</string>
+    <string name="error_message">Couldn\'t load Flickr photos, check your connection and Try again later.</string>
+    <!-- From: file:/C:/Projects/Volley-Flickr-Gson-List-GridView-example-master/volleyFlickrGsonListGridViewexamplemaster/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AppBaseTheme" parent="android:Theme.Light"/>
+    <style name="AppTheme" parent="AppBaseTheme"/>
+    <style name="description" parent="@style/subtitle">
+        <item name="android:maxLines">4</item>
+        <item name="android:autoLink">all</item>
+    </style>
+    <style name="subtitle" parent="@android:style/TextAppearance.Small">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@android:color/darker_gray</item>
+        <item name="android:textSize">13sp</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:paddingTop">2dp</item>
+        <item name="android:paddingBottom">2dp</item>
+        <item name="android:paddingLeft">5dp</item>
+    </style>
+    <style name="title" parent="@android:style/TextAppearance">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:padding">5dp</item>
+    </style>
+    <style name="title_inverse" parent="@style/title">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+</resources>
